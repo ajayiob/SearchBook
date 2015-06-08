@@ -1,0 +1,131 @@
+div{
+	margin :10px;
+}
+
+body{
+	margin: 0px;
+	background-color: #E0E0D1;
+	font-family: verdana, georgia, serif;
+	font-size: 14px;
+
+}
+
+.searchResult{
+	width: 100%;
+}
+
+.resultItem{
+	display: inline;
+	padding: 5px;
+	width: 50%;
+}
+
+.modalWrraper{
+	position: fixed;
+	top :0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(pymodal_mask_img.png);
+	background-color: transparent;
+	background-repeat: repeat;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	overflow: hidden;
+}
+
+.modal-content{
+	height: auto;
+	width: auto;
+  	margin: 0 auto;
+  	background-color: #F5F5F0;
+  	display: inline-block;
+}
+
+.modal-align-table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-align-cell{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.modal-header-btn{
+	height: auto;
+	width: auto;
+	float: right;
+	position: absolute;
+}
+
+.modal-content-table{
+	height: auto;
+	width: 700px;
+}
+
+.modal-content-table tr > :first-child{
+	text-align: right;
+	vertical-align: top;
+}
+
+.modal-content-table tr > :last-child{
+	text-align: left;
+	vertical-align: top;
+}
+
+.error-div{
+	display: inline-block;
+}
+
+.msgonfind{
+	display:table; 
+	margin: 0 auto;
+}
+
+.pageCount{
+	margin: 5px 10px 5px 10px;
+	background-color: #FFE6E6;
+	height:20px;
+}
+
+.noResultDiv{
+	height: 80px;
+	background-color: #B05F5F;
+}
+
+.noResultDiv p{
+	margin: auto;
+	color: #FFFFFF;
+}
+
+#progress-bar-edge{
+	border : 2px solid black;
+	overflow :hidden;
+	height: 10px;
+	border-radius: 5px;
+}
+
+#progress-bar-edge .progress-bar{
+	height : 100%;
+	width : 90%;
+	background : rgba(51, 179, 48, 0.71);
+	margin: 0px;
+}
+
+#progress-bar-wrapper{
+	height: 100px;
+	width: 400px;
+	display : inline-block;
+	background-color: white
+}
+
+.progress-header{
+	margin: 0px;
+	padding: 3px;
+	background-color: #E0F0B2
+}

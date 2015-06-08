@@ -1,0 +1,35 @@
+<div class="pageCount">
+	<span class="msgonfind">page {{CurrentPage}} of {{TotalPages}}</span>
+</div>
+{{#each this}}
+<div style="display:inline" class="resultItem" bookid='{{ID}}'>
+	<table>
+		<tr>
+			<td>
+				<img class="bookImage" src='{{Image}}'></img>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<span style="width:100%">Name : </span>
+							<span class="bookName">{{Title}}</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span style="width:100%">SubTitle : </span>
+							<span class="bookSubTitle">{{SubTitle}}</span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<button class="show-book-detail">Show</button>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+{{/each}}

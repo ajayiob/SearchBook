@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="handlebars.js"></script>
+	<script type="text/javascript" src="book_utils.js"></script>
+	<script type="text/javascript" src="book_search_control.js"></script>
+
+	<script type="text/javascript" src="appmain.js"></script>
+	<title></title>
+</head>
+<body>
+<!-- Bussy indicator for progress bar starts -->
+<div class="modalWrraper" id='progress-div' style="display:none">
+	<div class="modal-align-table">
+		<div class="modal-align-cell">
+			<div id='progress-bar-wrapper'>
+				<div class='progress-header'>
+					<span>Please wait while we fetch</span>
+				</div>
+				<div>
+					<span id='wait-msg'>
+						90% completed...
+					</span>
+				</div>
+				<div id='progress-bar-edge'>
+					<div class='progress-bar'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Bussy indicator for progress bar ends -->
+<div class="modalWrraper" id='bookModaldialog' style="display:none">
+	<div class="modal-align-table">
+		<div class="modal-align-cell">
+			
+		</div>
+	</div>
+</div>
+<div class="modalWrraper" id='Wait_spinner' style="display:none">
+	<div class="modal-align-table">
+		<div class="modal-align-cell">
+			<div>
+				<img src="./spinning_32.gif">
+			</div>
+		</div>
+	</div>
+</div>
+<div>
+	<table>
+		<tr>
+			<td>
+				<span>Search</span>
+			</td>
+			<td>
+				<input id="searchtext" type="text">
+			</td>
+			<td>
+				<button id="searchbtn">Find</button>
+			</td>
+			<td>
+				<input type="checkbox" id="advOpt">Only search for 'Title'</input>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="resultDIV" class="searchResult">
+	<!-- <div class="noResultDiv">
+		<p>No Result Found</p>
+	</div> -->
+</div>
+<div id="showMore" class="pageCount" style="display:none">
+	<button class="msgonfind"></button>
+</div>
+</body>
+<link rel="stylesheet" type="text/css" href="style.css">
+</html>

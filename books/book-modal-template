@@ -1,0 +1,88 @@
+<div class="modal-content">
+<table class="modal-content-table">
+	<tr>
+		<td>
+			<img class="modal-bookImage" src="{{Image}}" >
+		</td>
+		<td style="vertical-align: top;">
+			<table>
+				<tr>
+					<td nowrap>
+						<span>Name :</span>
+					</td>
+					<td>
+						<span class="modal-bookname">{{Title}}</span>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>Subtitle :</span>
+					</td>
+					<td>
+						<span class="modal-subtitle">{{SubTitle}}</span>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>Description :</span>
+					</td>
+					<td>
+						<textarea class="modal-description" rows="4" cols="50">
+							{{Description}}
+						</textarea>
+						
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>Author :</span>
+					</td>
+					<td>
+						<span class="modal-description">{{Author}}</span>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>Year :</span>
+					</td>
+					<td>
+						<span class="modal-description">{{Year}}</span>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>No of pages :</span>
+					</td>
+					<td>
+						<span class="modal-description">{{Page}}</span>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>Publisher :</span>
+					</td>
+					<td>
+						<span class="modal-description">{{Publisher}}</span>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<span>Download :</span>
+					</td>
+					<td>
+						<a href='{{Download}}' target="_blank"><button>Download</button></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button class="close-modal-dialog">
+							Close
+						</button>
+					</td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
